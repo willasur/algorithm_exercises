@@ -12,21 +12,28 @@ Then we will move on to working with LinkedLists again
 - Reversing a LinkedList
 - Adding together the values in two linked lists
 
-
+*The work is to complete the above seven items.*  Ideally, the sorting algorithms are completed in class while the LinkedList excercises are completed at home.
 
 ## Estimated time
 Estimate time is 14 hours.
 
 ## Directions
-Clone the excercise files
+Clone the excercise files found in the repository [Leap-Internal-Program / sorting-arrays-linked-lists](https://github.com/Leap-Internal-Program/sorting-arrays-linked-lists).  This activity will first be guided by the instructor.  Follow his or her guidance for getting started. Remember that the project files include some tests, but you will need to write additional tests.
 
 # Sorting
 ## Why are practicing these sorting algorithms?
 Several of the
-- Sorting algorithms are an excellent way to explore time and space complexity.
-- Sorting algorithms let us see different solutions to the same problem.  Each trade off has advantages and disadvantages.
+- Sorting algorithms are an excellent way to explore time and space complexity. These sorting algorithms are staples of an introduction to computer science.
+- Sorting algorithms let us see different solutions to the same problem.  Each solutions has trade offs.
 - Apprentices should feel comfortable traversing arrays, swapping array values, and looping.
-- Merge sort allows us to see a O(x*lg(x)) algorithm and further explore recursion 
+- Merge sort allows us to see a O(x*lg(x)) algorithm and recursion.
+
+
+## Introduction to sorting
+![](./img/sorting-video.png)
+*YoutTube* - [3 Levels of Sorting Algorithms - FASTEST Comparison Sort!](https://www.youtube.com/watch?v=qk7b4-iyCJ4)
+
+Watch the introduction to the three types of sorting algorithms.  You will be practicing the sorting algorithms found below.
 
 ## Bubble Sort
 *We will do bubble sort as a class.*
@@ -84,20 +91,42 @@ The reason that merge sort is faster than the other above solutions is *combinin
 
 ---
 # LeetCode & LinkedLists
+
+## What is LeetCode?
+
+LeetCode.com
+
+There are a plethora of training resources and practice environments on the web on data structures and algorithms.  Sites may be categorized into the buckets:
+
+LeetCode is one of the most well-known online platforms used to practice your programming skills by solving interview like coding questions.  This is not an endorsement of a LeetCode rather an exploration of only one of the many training sites.
+
+To complete this excercise you will need to sign up LeetCode.  Follow the sign up instructions on the site.  Do not pay to use LeetCode.  Do not sign up for any membership.
+
+---
+
 ![Design linked list header](./img/design-linked-list.png)
 ## Designing a Linked List.
 ### Time:
 Up to four hours.
 
 ### Problem
-LeetCode - 
+*LeetCode* - (Training) [Introduction - Singly Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1287/)
 
-Follow the directions on leet code for designing a linked list.
+*LeetCode* - (Training) [Add Operation - Singly Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1288/)
 
-This problem was selected 
+*LeetCode* - (Training) [Delete Operation - Singly Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1289/)
 
+*LeetCode* - (Problem) [Design Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/)
 
-# Linked Lists
+Follow the directions on LeetCode for designing a linked list.  The link above starts their course on their LinkedList module.  
+
+If you have already followed Reynald's LinkedIn Learning training on algorithms, you may notice a different list design. Design this list according to the instructions on LeetCode.
+
+After signing up for Leet Code, start here: [Introduction - Singly Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1287/)
+
+Remember to write tests for each of your methods.  You may need to complete several methods, such as `Get()` and `AddAtHead()` before you are able to complete your tests.  More than *twenty tests* is reasonable.
+
+---
 
 ![](./img/reverse-linked-list.png)
 ## Reverse a Linked List
