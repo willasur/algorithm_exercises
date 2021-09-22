@@ -1,39 +1,41 @@
-# Sorting Arrays and Traversing LinkedLists
+# Sorting Arrays and Traversing Linked Lists
 
 ## Summary
-We will be practicing the below sorting algorithms, including
+We will be practicing the below sorting algorithms:
 - O(n^2) Bubble Sort
 - O(n^2) Selection Sort
 - O(n^2) Insertion Sort
 - O(lg(x) x) Merge Sort
 
-Then we will move on to working with LinkedLists again
+Then we will do these linked lists problems on LeetCode:
 - Creating a linked list data structure
-- Reversing a LinkedList
+- Reversing a linked list
 - Adding together the values in two linked lists
 
-*The work is to complete the above seven items.*  Ideally, the sorting algorithms are completed in class while the LinkedList excercises are completed at home.
+Complete the seven items.  Ideally, the sorting algorithms are completed in class while the linked list training is completed at home.  Follow the directions below to clone repository and comple all work by adding to the *LinkedListTraining* solution.
 
 ## Estimated time
 Estimate time is 14 hours.
 
 ## Directions
-Clone the excercise files found in the repository [Leap-Internal-Program / sorting-arrays-linked-lists](https://github.com/Leap-Internal-Program/sorting-arrays-linked-lists).  This activity will first be guided by the instructor.  Follow his or her guidance for getting started. Remember that the project files include some tests, but you will need to write additional tests.
+Clone the exercise files found in the repository [Leap-Internal-Program / sorting-arrays-linked-lists](https://github.com/Leap-Internal-Program/sorting-arrays-linked-lists).  This activity will first be guided by the instructor.  Follow his or her guidance for getting started. Remember that the project files include some tests, but you will need to write additional tests.
+
+![Sortin Tests](./img/sorting-header.png)
 
 # Sorting
 ## Why are practicing these sorting algorithms?
-Several of the
+
 - Sorting algorithms are an excellent way to explore time and space complexity. These sorting algorithms are staples of an introduction to computer science.
-- Sorting algorithms let us see different solutions to the same problem.  Each solutions has trade offs.
+- Sorting algorithms let us see different solutions to the same problem.  Each solutions has tradeoffs.
 - Apprentices should feel comfortable traversing arrays, swapping array values, and looping.
-- Merge sort allows us to see a O(x*lg(x)) algorithm and recursion.
+- Merge sort allows us to see a O(x*lg(x)) algorithm and practice recursion.
 
 
 ## Introduction to sorting
 ![](./img/sorting-video.png)
-*YoutTube* - [3 Levels of Sorting Algorithms - FASTEST Comparison Sort!](https://www.youtube.com/watch?v=qk7b4-iyCJ4)
+*YouTube* - [3 Levels of Sorting Algorithms - FASTEST Comparison Sort!](https://www.youtube.com/watch?v=qk7b4-iyCJ4)
 
-Watch the introduction to the three types of sorting algorithms.  You will be practicing the sorting algorithms found below.
+Watch the introduction to the three types of sorting algorithms.  You will be practicing the sorting algorithms found below.  It may be helpful to review the video several times  to see how each sorting algorithm works.
 
 ## Bubble Sort
 *We will do bubble sort as a class.*
@@ -72,9 +74,9 @@ Image of insertion sort: [Insertion sort example](https://en.wikipedia.org/wiki/
 >
 > [Wikipedia: Merg Sort](https://en.wikipedia.org/wiki/Merge_sort)
 
-Image of insertion sort: [Insertion sort example](https://en.wikipedia.org/wiki/Merge_sort#/media/File:Merge-sort-example-300px.gif)
+Image of merge sort: [Merge sort example](https://en.wikipedia.org/wiki/Merge_sort#/media/File:Merge-sort-example-300px.gif)
 
-Merge sort may be one of the first times using recursion and the first introduction to a divide and counquer approach to solving problmes. As a reminder, an algorithm that is recursive in structure calls itself recursively one or more times: function calls itself directly or indirectly. The divide and conquer algorithm typically follows these steps:
+Merge sort may be one of the first times using recursion and the first introduction to a divide and conquer approach to solving problems. As a reminder, an algorithm that is recursive in structure calls itself recursively one or more times: function calls itself directly or indirectly. The divide and conquer algorithm typically follow these steps:
 1)  Break the problem into subproblems that are similar in nature to the original problem but smaller in size.
 2) Solve the subproblem.
 3) Combine the solutions to the subproblems.
@@ -96,11 +98,9 @@ The reason that merge sort is faster than the other above solutions is *combinin
 
 LeetCode.com
 
-There are a plethora of training resources and practice environments on the web on data structures and algorithms.  Sites may be categorized into the buckets:
+There are a plethora of training resources and practice environments on the web.  LeetCode is one of the most well-known online platforms used to practice your programming skills by solving interview like coding questions.  This is not an endorsement of a LeetCode rather an exploration of only one of many sites.  While LeetCode focuses on practicing "interview like questions," other sites focus on training on data structure or competing against other users.
 
-LeetCode is one of the most well-known online platforms used to practice your programming skills by solving interview like coding questions.  This is not an endorsement of a LeetCode rather an exploration of only one of the many training sites.
-
-To complete this excercise you will need to sign up LeetCode.  Follow the sign up instructions on the site.  Do not pay to use LeetCode.  Do not sign up for any membership.
+To complete this exercise you will need to signup LeetCode.  Follow the sign up instructions on the site.  Do not pay to use LeetCode.  Do not sign up for any membership plan.
 
 ---
 
@@ -118,13 +118,13 @@ Up to four hours.
 
 *LeetCode* - (Problem) [Design Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/)
 
-Follow the directions on LeetCode for designing a linked list.  The link above starts their course on their LinkedList module.  
-
-If you have already followed Reynald's LinkedIn Learning training on algorithms, you may notice a different list design. Design this list according to the instructions on LeetCode.
+Follow the directions on LeetCode for designing a linked list.  If you have already followed Reynald's LinkedIn Learning training on algorithms, you may notice a different list design. Design this list according to the instructions on LeetCode.
 
 After signing up for Leet Code, start here: [Introduction - Singly Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1287/)
 
-Remember to write tests for each of your methods.  You may need to complete several methods, such as `Get()` and `AddAtHead()` before you are able to complete your tests.  More than *twenty tests* is reasonable.
+Remember to write tests for each of your methods.  You may need to complete several methods, such as `Get()` and `AddAtHead()` before you are able to complete your tests.  More than *twenty tests* is reasonable.  This activity is also about test writing.
+
+Work this problem in the provided solution *LinkedListsTraining.*  Then you may copy and paste your solution in the LeetCode site.
 
 ---
 
@@ -144,7 +144,7 @@ Read the problem [Reverse Linked List](https://leetcode.com/explore/learn/card/l
 Work this problem in the provided solution *LinkedListsTraining.*  Then you may copy and paste your solution in the LeetCode site.
 ![Linked list in solution](./img/reverse-linked-list-in-solution.png)
 
-This problem does not require that much code to solve, but it may take expirementation and practice.  Take a break when you need to.  A similar concept used in sorting would be swapping the values at index i and k below;
+This problem does not require that much code to solve, but it may take experimentation  and practice.  Take a break when you need to.  Write out and diagram it on a piece of paper. A similar concept used in sorting would be swapping the values at index i and k below;
 
 ```csharp
 var temp = arr[i];
@@ -190,11 +190,11 @@ Challanging (up to three hours).  You may not finish.
 ### Problem
 *LeetCode* [Add two number](https://leetcode.com/problems/add-two-numbers/)
 
-Read the problem [Add two numbers](https://leetcode.com/problems/add-two-numbers/).  This was the most popular question answered at LeetCode at one time because it was previously stated to be the most popular question asked during an interview.  It's listed at as a meduimly hard question on LeetCode.
+Read the problem [Add two numbers](https://leetcode.com/problems/add-two-numbers/).  This was the most popular question answered at LeetCode at one time because it was previously stated to be the most popular question asked during an interview.  It's listed at as a medium difficulty on LeetCode.
 
-This problem was selected *not becuase it was a popular interview question* but becuase it's excellent problem to follow our test driven development best practices like breaking a problem down into parts through writing a test then refactoring.  A list of recommended tests have been outlined below with hints.  Instead of trying to write an answer that passes all the tests, try to write and then pass one test at a time.  You may find the hints and code samples helpful; don't allow them to lead you astray.
+This problem was selected *not because it was a popular interview question* but becuase it's excellent problem to follow our test driven development best practices like breaking a problem down into parts through writing a test then refactoring.  A list of recommended tests have been outlined below with hints.  Instead of trying to write an answer that passes all the tests, try to write and then pass one test at a time.  You may find the hints and code samples helpful; don't allow the hints to confuse you.
 
-Make sure your approach is storing your information in a new linked list and not temporarily storing long numbers in System.Int64, an Array, or `List<int>`.
+Make sure your approach is storing your information in a new linked list and not temporarily storing a set a large set of numbers in System.Int64, an Array, or `List<int>`.
 
 Work this problem in the provided solution *LinkedListsTraining.*  Then you may copy and paste your solution in the LeetCode site.
 ![Linked list in solution](./img/add-two-numbers-in-solution.png)
