@@ -12,7 +12,7 @@ Then we will do these linked lists problems on LeetCode:
 - Reversing a linked list
 - Adding together the values in two linked lists
 
-Complete the seven items.  Ideally, the sorting algorithms are completed in class while the linked list training is completed at home.  Follow the directions below to clone repository and comple all work by adding to the *LinkedListTraining* solution.
+Complete the seven items.  Ideally, the sorting algorithms are completed in class while the linked list training is completed at home.  Follow the directions below to clone repository and complete all work by adding to the *LinkedListTraining* solution.
 
 ## Estimated time
 Estimate time is 14 hours.
@@ -21,6 +21,7 @@ Estimate time is 14 hours.
 Clone the exercise files found in the repository [Leap-Internal-Program / sorting-arrays-linked-lists](https://github.com/Leap-Internal-Program/sorting-arrays-linked-lists).  This activity will first be guided by the instructor.  Follow his or her guidance for getting started. Remember that the project files include some tests, but you will need to write additional tests.
 
 ![Sortin Tests](./img/sorting-header.png)
+
 
 # Sorting
 ## Why are practicing these sorting algorithms?
@@ -101,6 +102,9 @@ LeetCode.com
 There are a plethora of training resources and practice environments on the web.  LeetCode is one of the most well-known online platforms used to practice your programming skills by solving interview like coding questions.  This is not an endorsement of a LeetCode rather an exploration of only one of many sites.  While LeetCode focuses on practicing "interview like questions," other sites focus on training on data structure or competing against other users.
 
 To complete this exercise you will need to signup LeetCode.  Follow the sign up instructions on the site.  Do not pay to use LeetCode.  Do not sign up for any membership plan.
+
+### *How many tests should I write?*
+After writing the code, you will be pasting it into the LeetCode site for evaluation.  If your code does not pass all the tests on LeetCode, think about what test cases you should have added before submitting your code. Your goal should be the first submission on the LeetCode site passes all of their tests.
 
 ---
 
